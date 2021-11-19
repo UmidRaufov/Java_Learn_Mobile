@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="@string/java_learn_for_beginner"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollViewvertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_lesson1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 1\n Java tiliga kirish  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 2\n Birinchi Java dasturi  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 3\n Javada o'zgaruvchilar  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 4\n Javada ma'lumot turlari  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 5\n Java operatorlari  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 6\n Javada If-else, Swich-Case  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 7\n Javada for sikli  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lesson8"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/purple_500"
+                    android:text="Lesson 8\n Javada While sikli  "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

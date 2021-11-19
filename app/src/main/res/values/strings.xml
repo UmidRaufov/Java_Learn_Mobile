@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Java Learn Mobile</string>
+    <string name="data1">Java dasturlash uchun kirish</string>
+    <string name="java_learn_for_beginner">Java Learn for Beginner</string>
+    <string name="data2">JAVA 1991 yilda Sun Microsystems Inc tomonidan ishlab chiqilgan, keyinchalik Oracle korporatsiyasi tomonidan sotib olingan. U Jeyms Gosling va Patrik Naughton tomonidan ishlab chiqilgan. Bu oddiy dasturlash tili. Java-da dastur yozish, kompilyatsiya qilish va disk raskadrovka qilish oson. Bu modulli dasturlar va qayta ishlatiladigan kodlarni yaratishga yordam beradi.</string>
+    <string name="data3">Java terminologiyasi</string>
+    <string name="data4">Java tilini organishni boshlashdan oldin umumiy java atamalari bilan tanishib chiqamiz.
+
+Java virtual mashinasi (JVM)
+Bu odatda JVM deb ataladi. Avval JVM haqida gaplashamiz, dasturni bajarish bosqichlarini korib chiqamiz. Bosqichlar quyidagicha: biz dasturni yozamiz, keyin dasturni kompilyatsiya qilamiz va nihoyat dasturni ishga tushiramiz.
+1) Dasturni yozish, albatta, siz va men kabi java dasturchisi tomonidan amalga oshiriladi.
+2) Dasturni kompilyatsiya qilish javac kompilyatori tomonidan amalga oshiriladi, javac java rivojlantirish kitiga (JDK) kiritilgan asosiy java kompilyatoridir. U java dasturini kirish sifatida oladi va chiqish sifatida java baytekodini yaratadi.
+3) Uchinchi bosqichda JVM kompilyator tomonidan yaratilgan bayt kodini bajaradi. Bu dasturni ishga tushirish bosqichi deb ataladi.
+</string>
+    <string name="data5">Java Development Kit (JDK)</string>
+    <string name="data6">JVM va baytekodni tushuntirishda men JDK atamasidan foydalandim. Keling, bu haqda muhokama qilaylik. Nomidan korinib turibdiki, bu JRE (Java Runtime Environment), kompilyatorlar va JavaDoc, Java tuzatuvchisi kabi turli xil vositalarni oz ichiga olgan java ishlab chiqish toplamidir.</string>
+    <string name="data7">Java Runtime Environment (JRE)</string>
+    <string name="data8">JRE JDK ning bir qismi bolib, JDK JREni oz ichiga oladi. Tizimingizda JRE ornatilgan bolsa, java dasturini ishga tushirishingiz mumkin, ammo uni kompilyatsiya qila olmaysiz. JRE JVM, brauzer plaginlari va appletlarni qollab-quvvatlashni oz ichiga oladi. Kompyuteringizda faqat java dasturini ishga tushirishingiz kerak bolganda, sizga faqat JRE kerak boladi.</string>
+    <string name="data9">Java platformadan mustaqil tildir</string>
+    <string name="data10">Kompilyator (javac) manba kodini (.java fayli) bayt kodiga (.sinf fayli) aylantiradi. Yuqorida aytib otilganidek, JVM kompilyator tomonidan ishlab chiqarilgan bayt kodini bajaradi. Bu bayt kodi Windows,
+        Linux, Mac OS va boshqalar kabi har qanday platformada ishlashi mumkin. Bu degani, Windowsda tuzilgan dastur Linuxda va aksincha.</string>
+</resources>
