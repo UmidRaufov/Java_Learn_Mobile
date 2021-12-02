@@ -1,22 +1,124 @@
 <resources>
     <string name="app_name">Java Learn Mobile</string>
+    <string name="top_title">Java dasturlash tilini o`rgatuvchi ilova</string>
+
     <string name="data1">Java dasturlash uchun kirish</string>
-    <string name="java_learn_for_beginner">Java Learn for Beginner</string>
     <string name="data2">JAVA 1991 yilda Sun Microsystems Inc tomonidan ishlab chiqilgan, keyinchalik Oracle korporatsiyasi tomonidan sotib olingan. U Jeyms Gosling va Patrik Naughton tomonidan ishlab chiqilgan. Bu oddiy dasturlash tili. Java-da dastur yozish, kompilyatsiya qilish va disk raskadrovka qilish oson. Bu modulli dasturlar va qayta ishlatiladigan kodlarni yaratishga yordam beradi.</string>
     <string name="data3">Java terminologiyasi</string>
     <string name="data4">Java tilini organishni boshlashdan oldin umumiy java atamalari bilan tanishib chiqamiz.
-
-Java virtual mashinasi (JVM)
-Bu odatda JVM deb ataladi. Avval JVM haqida gaplashamiz, dasturni bajarish bosqichlarini korib chiqamiz. Bosqichlar quyidagicha: biz dasturni yozamiz, keyin dasturni kompilyatsiya qilamiz va nihoyat dasturni ishga tushiramiz.
-1) Dasturni yozish, albatta, siz va men kabi java dasturchisi tomonidan amalga oshiriladi.
-2) Dasturni kompilyatsiya qilish javac kompilyatori tomonidan amalga oshiriladi, javac java rivojlantirish kitiga (JDK) kiritilgan asosiy java kompilyatoridir. U java dasturini kirish sifatida oladi va chiqish sifatida java baytekodini yaratadi.
-3) Uchinchi bosqichda JVM kompilyator tomonidan yaratilgan bayt kodini bajaradi. Bu dasturni ishga tushirish bosqichi deb ataladi.
-</string>
+        Java virtual mashinasi (JVM)
+        Bu odatda JVM deb ataladi. Avval JVM haqida gaplashamiz, dasturni bajarish bosqichlarini korib chiqamiz. Bosqichlar quyidagicha: biz dasturni yozamiz, keyin dasturni kompilyatsiya qilamiz va nihoyat dasturni ishga tushiramiz.
+        1) Dasturni yozish, albatta, siz va men kabi java dasturchisi tomonidan amalga oshiriladi.
+        2) Dasturni kompilyatsiya qilish javac kompilyatori tomonidan amalga oshiriladi, javac java rivojlantirish kitiga (JDK) kiritilgan asosiy java kompilyatoridir. U java dasturini kirish sifatida oladi va chiqish sifatida java baytekodini yaratadi.
+        3) Uchinchi bosqichda JVM kompilyator tomonidan yaratilgan bayt kodini bajaradi. Bu dasturni ishga tushirish bosqichi deb ataladi.
+    </string>
     <string name="data5">Java Development Kit (JDK)</string>
     <string name="data6">JVM va baytekodni tushuntirishda men JDK atamasidan foydalandim. Keling, bu haqda muhokama qilaylik. Nomidan korinib turibdiki, bu JRE (Java Runtime Environment), kompilyatorlar va JavaDoc, Java tuzatuvchisi kabi turli xil vositalarni oz ichiga olgan java ishlab chiqish toplamidir.</string>
     <string name="data7">Java Runtime Environment (JRE)</string>
-    <string name="data8">JRE JDK ning bir qismi bolib, JDK JREni oz ichiga oladi. Tizimingizda JRE ornatilgan bolsa, java dasturini ishga tushirishingiz mumkin, ammo uni kompilyatsiya qila olmaysiz. JRE JVM, brauzer plaginlari va appletlarni qollab-quvvatlashni oz ichiga oladi. Kompyuteringizda faqat java dasturini ishga tushirishingiz kerak bolganda, sizga faqat JRE kerak boladi.</string>
+    <string name="data8">JRE JDK ning bir qismi bolib, JDK JREni oz ichiga oladi. Tizimingizda JRE ornatilgan bolsa, java
+    dasturini ishga tushirishingiz mumkin, ammo uni kompilyatsiya qila olmaysiz. JRE JVM, brauzer plaginlari va appletlarni qollab-quvvatlashni oz ichiga oladi. Kompyuteringizda faqat java dasturini ishga tushirishingiz kerak bolganda, sizga faqat JRE kerak boladi.</string>
     <string name="data9">Java platformadan mustaqil tildir</string>
     <string name="data10">Kompilyator (javac) manba kodini (.java fayli) bayt kodiga (.sinf fayli) aylantiradi. Yuqorida aytib otilganidek, JVM kompilyator tomonidan ishlab chiqarilgan bayt kodini bajaradi. Bu bayt kodi Windows,
-        Linux, Mac OS va boshqalar kabi har qanday platformada ishlashi mumkin. Bu degani, Windowsda tuzilgan dastur Linuxda va aksincha.</string>
+     Linux, Mac OS va boshqalar kabi har qanday platformada ishlashi mumkin. Bu degani, Windowsda tuzilgan dastur Linuxda va aksincha.
+    </string>
+   <string name="data11">Salom dunyo misolini yaratish\n
+    Keling, salom java dasturini yarataylik:\n
+
+    Kompilyatsiya qilish uchun:\n
+    javac Simple.java\n
+    Amalga oshirish uchun:\n
+    java oddiy\n
+    Chiqish:\n
+
+    Salom Java\n
+
+   Keling, sinf, ommaviy, statik, void, main, String[], System.out.println() nimani anglatishini korib chiqaylik.\n
+
+    class kalit sozi Java-da sinfni elon qilish uchun ishlatiladi.\n
+    public kalit sozi korinishni ifodalovchi kirish modifikatoridir.\n
+       \n
+       \n
+       Bu hamma uchun korinadigan degan manoni anglatadi.\n
+    statik kalit sozdir. Har qanday usulni statik deb elon qilsak, u statik usul deb nomlanadi.\n Statik
+       usulning asosiy afzalligi shundaki, statik usulni chaqirish uchun obekt yaratishga hojat yoq. main() usuli JVM tomonidan bajariladi, shuning uchun u main() usulini chaqirish uchun obekt yaratishni talab qilmaydi. Shunday qilib, u xotirani saqlaydi.
+    void - bu usulning qaytish turi. Bu hech qanday qiymatni qaytarmasligini anglatadi.\n
+
+    main dasturning boshlangich nuqtasini ifodalaydi.\n
+    String[] args yoki String args[] buyruq qatori argumenti uchun ishlatiladi . Buni keyingi bolimda muhokama qilamiz.\n
+    System.out.println() bayonotni chop etish uchun ishlatiladi. Bu erda System - bu sinf, out - PrintStream sinfining obekti,
+    println() - PrintStream sinfining usuli. Keyingi bolimda System.out.println() bayonotining ichki ishlashini muhokama qilamiz .\n
+    </string>
+   <string name="data12">Biz foydalanuvchi malumotlari bilan ishlashda strings bilan malum darajada tanishganmiz. \n Keling, etiborimizni Javada keng qoʻllaniladigan boshqa ozgaruvchilar turlarini organishga qarataylik.
+
+    O\'zgaruvchini malum turdagi malumotlarni saqlash mumkin bolgan konteyner sifatida korish mumkin.\n Bu har xil turlarga misollar matn ( String), butun sonlar ( int), suzuvchi nuqtali raqamlar ( double) va biror narsaning rost yoki notogri ekanligi ( boolean). \n Qiymat ozgaruvchiga tenglik belgisi ( = ) yordamida tayinlanadi .\n
+
+    int months = 12;\n
+    Yuqoridagi bayonotda 12 qiymati oylar deb nomlangan butun zgaruvchiga tayinlangan. Bayonotni shunday oqish mumkin: "\ozgaruvchan oylarga 12 qiymati berilgan"\.\n
+
+    O\'zgaruvchining qiymati quyidagi misolda korsatilganidek, + belgisi yordamida satrga birlashtirilishi mumkin.\n
+       \n
+       \n
+       String text = "contains text"\; \n
+        int wholeNumber = 123\; \n
+        double floatingPoint = 3.141592653\; \n
+        boolean trueOrFalse = true\; \n
+
+        System.out.println(\"Text variable: \" + text)\; \n
+        System.out.println(\"Integer variable: \" + wholeNumber)\; \n
+        System.out.println(\"Floating-point variable: \" + floatingPoint)\; \n
+        System.out.println(\"Boolean: \" + trueOrFalse)\; \n
+   </string>
+   <string name="data13">Ma\'lumotlar turlari har qanday dasturlash tilining eng muhim asosidir. Bu har bir yangi boshlanuvchi uchun eng muhim tushunchadir.\n Ma\'lumotlar turi u saqlaydigan qiymat uchun operatsiyalar turini, tabiatini va to\'plamini ko\'rsatish uchun muhim ahamiyatga ega. \n
+Java ma\'lumotlar turlari Javaning boshqa tushunchalariga o\'tishdan oldin bilishingiz kerak bo\'lgan eng asosiy va boshlang\'ich narsadir. Bular Java tilining har bir jabhasida, oddiy dastur yaratishda yoki har qanday dastur yoki dastur ishlab chiqishda juda foydali.\n
+
+   Ushbu qo\'llanmada biz Java-da ma\'lumotlar turlarini o\'rganish uchun zarur bo\'lgan hamma narsani muhokama qilamiz. Va men ushbu maqolani tugatgandan so\'ng, siz mavzuda hech qanday qiyinchilikka duch kelmaysiz.
+
+   </string>
+   <string name="data14">
+       Java tilidagi operatorlar\n
+       Java- dagi operator - bu operatsiyalarni bajarish uchun ishlatiladigan belgi. Masalan: +, -, *, / boshqalar.\n
+
+        Java-da operatorlarning ko\'p turlari mavjud, ular quyida keltirilgan:\n
+        \n
+        Birlik operator,\n
+       \n
+        Arifmetik operator,\n
+       \n
+        Shift operatori,\n
+       \n
+        Aloqa operatori,\n
+       \n
+        Bitwise operatori,\n
+       \n
+        Mantiqiy operator,\n
+       \n
+        Uchlik operatori va
+        Belgilash operatori.
+   </string>
+   <string name="data15">
+       Java unary operatori\n
+    Java unary operatorlari faqat bitta operandni talab qiladi. Unary operatorlar turli operatsiyalarni bajarish uchun ishlatiladi, ya\'ni:\n
+
+    qiymatni bittaga oshirish/kamaytirish\n
+    ifodani inkor etish\n
+    mantiqiy qiymatni invertatsiya qilish\n
+   </string>
+
+    <string name="data16">
+        //If-else oborasidan foydalanishni ko\'rsatish uchun Java dasturi.\n
+        //Bu toq va uft sonlar dasturi.\n
+        public class IfElseExample {\n
+        public static void main(String[] args) {\n
+            //\'Ozgaruvchini aniqlash\n
+            int number=13\;\n
+            //Raqam 2 ga bo\'linish yoki bo\'linmasligini tekshirish\n
+            if(number%2==0){\n
+                System.out.println("juft raqam")\;\n
+            }else{\n
+                System.out.println("toq raqam")\;\n
+            }\n
+        }\n
+        }\n
+    </string>
+
 </resources>
