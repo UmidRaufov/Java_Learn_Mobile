@@ -120,5 +120,38 @@ Java ma\'lumotlar turlari Javaning boshqa tushunchalariga o\'tishdan oldin bilis
         }\n
         }\n
     </string>
+    <string name="date">06/12/2021 da ilova ishlab chiqarildi</string>
+
+    <string name="about1">
+        Java tiliga kirish qismida java terminologiyasi haqida va
+        java Development Kit (JDK)hakida,
+        java Runtime Environment ( JRE),jawa platformadan
+        mustaqil tildir malumatlarini ko\'rsatib o\'tdim.
+    </string>
+
+    <string name="about2">
+        Birinchi Java dasturi qismida Bunda jawa dasturini yaratish Kompilyasiya qilish
+        class kalitisozi jawad sinf ekon qilish public kalit so\'zi
+        system lar islatilgan va o\'rgatilgan.
+    </string>
+
+    <string name="about3">
+        Javada o\'zgaruvchilar qismida Javaning ma\'lumot turlarining bir necha turlarining dasturlarning amaliy korinishida foydalanish
+        ko\'rsatib o\'tilgan.
+    </string>
+
+    <string name="about4">
+        Javada ma\'lumot turlari  qismida Bu qisimda bosga dasturlash kabi
+        javada xam bo\'lgan malumot turlari xakida batawsil malumot berilgan.
+    </string>
+
+    <string name="about5">
+        Java operatorlari qismida bir necta asasiy java oprtatorlari hakinda ma\'lumot keltirilgan.
+        Asosan birlik, arifmetik, shift, aloqa, mantiqiy operatorlar xakida ko\'rkazilgan.
+    </string>
+
+    <string name="about6">
+        Javada If-else, Swich-Case qismida, malumki tarmoklanuwci operator bo\'lgan if-else,operator tusuntirilgan
+    </string>
 
 </resources>

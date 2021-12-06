@@ -43,7 +43,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text=" Java tiliga kirish  "
+                    android:text="Java tiliga kirish"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -54,7 +54,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text=" Birinchi Java dasturi  "
+                    android:text="Birinchi Java dasturi"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -65,7 +65,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text="Javada o'zgaruvchilar  "
+                    android:text="Javada o'zgaruvchilar"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text=" Javada ma'lumot turlari  "
+                    android:text="Javada ma'lumot turlari"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text="Java operatorlari  "
+                    android:text="Java operatorlari"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -98,7 +98,18 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="4dp"
                     android:background="@color/purple_500"
-                    android:text=" Javada If-else, Swich-Case  "
+                    android:text="Javada If-else, Swich-Case"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="4dp"
+                    android:background="@color/teal_700"
+                    android:text="Dastur Haqida"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 

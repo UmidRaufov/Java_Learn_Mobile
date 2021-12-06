@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(v -> Les6Activity());
         // Yuqoridagi kod yangi activity ni ochib beradi
 
+        button = findViewById(R.id.btn_about);
+        button.setOnClickListener(v -> AboutActivity());
+        // Yuqoridagi kod yangi activity ni ochib beradi
+
 
     }
 
@@ -72,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void Les6Activity() {
         Intent intent = new Intent(this, Les6Activity.class);
+        startActivity(intent);
+        // Open activity
+    }
+
+    public void AboutActivity() {
+        Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);
         // Open activity
     }
